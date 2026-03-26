@@ -16,6 +16,9 @@ Usage with CrewAI:
 import os
 import requests
 
+# Self-signed cert on dev nodes
+_TLS_VERIFY = os.environ.get("TLS_VERIFY", "0") != "0"
+
 try:
     from langchain_core.tools import tool
 except ImportError:
