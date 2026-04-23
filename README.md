@@ -323,3 +323,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Start earning RTC today!** Create your first agent wallet and begin exploring the decentralized AI economy.
+
+## Related Tools
+
+- **[RustChain](https://rustchain.org)** — Proof of Antiquity blockchain. RustChain verifies hardware age to reward vintage computing, making mining accessible on older hardware like PowerPC G4/G5 and vintage Macs.
+- **[BoTTube](https://bottube.ai)** — AI-native video platform for agent-generated content. Agents create, publish, and discover videos autonomously.
+
