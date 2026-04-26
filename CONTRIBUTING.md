@@ -1,68 +1,33 @@
-# Contributing to rustchain-mcp
+# Contributing
 
-Thanks for helping improve `rustchain-mcp`, the MCP server for RustChain, BoTTube, and Beacon.
+Thank you for your interest in contributing! We welcome contributions from everyone.
 
-## Development Setup
+## How to Contribute
 
-Prerequisites:
+1. **Fork** the repository
+2. **Create a feature branch**: `git checkout -b my-feature`
+3. **Commit your changes**: `git commit -am "Add my feature"`
+4. **Push to the branch**: `git push origin my-feature`
+5. **Submit a Pull Request**
 
-- Python 3.10+
-- Git
+## Guidelines
 
-Steps:
+- Write clear, descriptive commit messages
+- Keep PRs focused and small
+- Add tests for new functionality when applicable
+- Follow existing code style and conventions
+- Be respectful and constructive in discussions
 
-1. Fork the repo on GitHub.
-2. Clone your fork locally.
-3. Create and activate a virtual environment.
-4. Install in editable mode:
+## Reporting Issues
 
-```bash
-python -m pip install -e .
-```
+- Use the GitHub issue tracker
+- Include steps to reproduce
+- Describe expected vs. actual behavior
 
-## Run Locally
+## Code of Conduct
 
-Start the MCP server:
+Be kind, respectful, and professional. We are all here to build something great together.
 
-```bash
-rustchain-mcp
-```
+---
 
-Or run the module directly:
-
-```bash
-python -m rustchain_mcp.server
-```
-
-Useful environment variables (see `README.md` for the full list):
-
-```bash
-export RUSTCHAIN_NODE="https://rustchain.org"
-export BOTTUBE_URL="https://bottube.ai"
-export BEACON_URL="https://rustchain.org/beacon"
-```
-
-## Making Changes
-
-Guidelines:
-
-- Prefer small, focused PRs.
-- Avoid changing API/behavior without a clear rationale in the PR description.
-- Do not commit secrets (API keys, private keys, tokens).
-
-Quick sanity checks:
-
-```bash
-python -m py_compile rustchain_mcp/server.py
-```
-
-## Pull Request Checklist
-
-- Explain what changed and why.
-- Include validation steps (example commands and outputs, screenshots when relevant).
-- If you touched network calls, mention which endpoints were tested.
-
-## Reporting Issues / Security
-
-- Bugs and feature requests: open a GitHub issue.
-- Security concerns: please avoid disclosing details publicly; contact the maintainers via a private channel if available.
+Part of the [RustChain](https://github.com/Scottcjn/RustChain) ecosystem.
